@@ -1,0 +1,21 @@
+Installation:
+    Backend:
+        -You need to open "Evalution App" in termial and run "npm install" to install all the dependencies.
+        -After that just run command "npm start" that will start your backend server at port 7000(you can change the port from app.js file).
+    FrontEnd:
+        -You need to open client folder in termial and run "npm install" to install all the dependencies.
+        -then you just need to run "npm start" to start the server on the front end on port 3000.
+
+
+Testing:
+    Tape:
+     - To run the tape test you need to turn of your backend server with control + c and then run "node test.js"
+     - This command will run the API test and show you result in console.
+    Cypress:
+     - To run cypress tests you need to install cypress with "npm install cypress --save-dev" this command.
+     - After installation run "npx cypress open" to open cypress Menu.
+     - From the Menu select E2E Testing.
+     - Now Select Browser To run tests.
+     - Browser will show yous the files in Specs select file "todo.cy.js" from getting started.
+     -After file select tests will open the app and run the tests.
+     
